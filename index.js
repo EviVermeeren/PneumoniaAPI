@@ -8,7 +8,7 @@ const port = 3000;
 
 app.use(express.json());
 const corsOptions = {
-  origin: "http://127.0.0.1:5501",
+  origin: "https://pneumonia-detector-seven.vercel.app/detector.html",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
   optionsSuccessStatus: 204,
