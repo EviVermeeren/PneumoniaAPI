@@ -1,14 +1,18 @@
 # PneumoniaAPI
 
-You can test this API using two endpoints: 
+## Testing the API
 
-1. Posting data such as an image URL and a feedback boolean: https://pneumoniaapi.onrender.com/api/v1/data/imagedata
+1. Post data (image URL and a feedback boolean)
 
-Example of the body (raw JSON): 
+  https://pneumoniaapi.onrender.com/api/v1/data/imagedata
 
-{
-  "image": "base64_encoded_image_data",
-  "option": "yes"
-}
+  Example of the body (raw JSON): 
+  
+  {
+    "image": "base64_encoded_image_data",
+    "option": "yes"
+  }
 
-2. Getting all the data from the database: https://pneumoniaapi.onrender.com/api/v1/data/alldata
+2. Get data from the database
+
+  https://pneumoniaapi.onrender.com/api/v1/data/alldata
