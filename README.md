@@ -1,3 +1,1 @@
-# DEV5-LAB4
-# DEV5-API-SNEAKERS
 # PneumoniaAPI
