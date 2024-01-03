@@ -7,7 +7,14 @@ const app = express();
 const port = 3000;
 
 app.use(express.json());
-app.use(cors());
+const corsOptions = {
+  origin: "http://127.0.0.1:5501",
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  credentials: true,
+  optionsSuccessStatus: 204,
+};
+
+app.use(cors(corsOptions));
 
 mongoose.connect(process.env.MONGODB, {
   useNewUrlParser: true,
